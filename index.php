@@ -191,6 +191,7 @@ include ($home->inc['breadcrumbs']);
         position: relative;
         padding: 20px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        font-weight:bold !important;
     }
 
 
@@ -371,6 +372,7 @@ include ($home->inc['breadcrumbs']);
     @media screen and (max-width: 700px) {
         .rectangle {
             padding: 20px 10px;
+            font-weight:bold !important;
         }
 
         .level-1,
@@ -428,13 +430,13 @@ include ($home->inc['breadcrumbs']);
             <section class="content-holder">
 
                 <div class="container1">
-                    <p class="level-1 rectangle" style="font-weight:bold;font-size:30px;">CEO</p>
+                    <p class="level-1 rectangle" style="font-size:30px;">CEO</p>
                     <ol class="level-2-wrapper">
                         <li>
-                            <p class="level-2 rectangle" style="font-weight:bold;">Director A</p>
+                            <p class="level-2 rectangle">Director A</p>
                             <ol class="level-3-wrapper">
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;font-weight:bold;">Manager A</p>
+                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager A</p>
                                     <ol class="level-4-wrapper">
                                         <li>
                                             <h4 class="level-4 rectangle">Person A</h4>
@@ -451,7 +453,7 @@ include ($home->inc['breadcrumbs']);
                                     </ol>
                                 </li>
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;font-weight:bold;">Manager B</p>
+                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager B</p>
                                     <ol class="level-4-wrapper">
                                         <li>
                                             <h4 class="level-4 rectangle">Person A</h4>
@@ -473,7 +475,7 @@ include ($home->inc['breadcrumbs']);
                             <p class="level-2 rectangle" style="font-weight:bold;">Director B</p>
                             <ol class="level-3-wrapper">
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;font-weight:bold;">Manager
+                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager
                                         C</p>
                                     <ol class="level-4-wrapper">
                                         <li>
@@ -491,7 +493,7 @@ include ($home->inc['breadcrumbs']);
                                     </ol>
                                 </li>
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;font-weight:bold;">Manager
+                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager
                                         D</p>
                                     <ol class="level-4-wrapper">
                                         <li>
