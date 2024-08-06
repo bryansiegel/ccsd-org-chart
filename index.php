@@ -60,7 +60,6 @@ include ($home->inc['breadcrumbs']);
         padding-left: 15px;
 
     }
-
     /* fix content length */
     .main-content-wrap {
         width: 90% !important;
@@ -345,6 +344,7 @@ include ($home->inc['breadcrumbs']);
             <section class="content-holder">
 
                 <div class="container1">
+                    <!-- Use p instead of headers -->
                     <p class="level-1 rectangle">CEO</p>
                     <ol class="level-2-wrapper">
                         <li>
