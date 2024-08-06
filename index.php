@@ -420,6 +420,10 @@ include ($home->inc['breadcrumbs']);
         /* margin: 10px 0 20px; */
         padding: 0;
     }
+    /* fix footer copyright */
+    #sub-footer {
+        width:100% !important;
+    }
 </style>
 
 <!-- content -->
