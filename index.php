@@ -152,12 +152,6 @@ include ($home->inc['breadcrumbs']);
         --black: black;
     }
 
-    /* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
-
     ol {
         list-style: none;
         list-style-type: none !important;
@@ -167,18 +161,6 @@ include ($home->inc['breadcrumbs']);
         margin-inline-end: 0px !important;
         padding-inline-start: 0px !important;
     }
-
-    li {
-        /* display: block !important;
-    text-align: center !important; */
-        /* unicode-bidi: none !important; */
-    }
-
-    /* body {
-  margin: 50px 0 100px;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-} */
 
     .container1 {
         max-width: 1000px;
@@ -191,7 +173,7 @@ include ($home->inc['breadcrumbs']);
         position: relative;
         padding: 20px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-        font-weight:bold !important;
+        font-weight: bold !important;
     }
 
 
@@ -201,6 +183,7 @@ include ($home->inc['breadcrumbs']);
         width: 50%;
         margin: 0 auto 40px;
         background: var(--level-1);
+        font-size: 30px;
     }
 
     .level-1::before {
@@ -322,7 +305,8 @@ include ($home->inc['breadcrumbs']);
     }
 
     .level-3 {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
+        margin: 0px !important;
         background: var(--level-3);
     }
 
@@ -372,12 +356,13 @@ include ($home->inc['breadcrumbs']);
     @media screen and (max-width: 700px) {
         .rectangle {
             padding: 20px 10px;
-            font-weight:bold !important;
+            font-weight: bold !important;
         }
 
         .level-1,
         .level-2 {
             width: 100%;
+            font-weight: bold;
         }
 
         .level-1 {
@@ -420,9 +405,10 @@ include ($home->inc['breadcrumbs']);
         /* margin: 10px 0 20px; */
         padding: 0;
     }
+
     /* fix footer copyright */
     #sub-footer {
-        width:100% !important;
+        width: 100% !important;
     }
 </style>
 
@@ -434,13 +420,13 @@ include ($home->inc['breadcrumbs']);
             <section class="content-holder">
 
                 <div class="container1">
-                    <p class="level-1 rectangle" style="font-size:30px;">CEO</p>
+                    <p class="level-1 rectangle">CEO</p>
                     <ol class="level-2-wrapper">
                         <li>
                             <p class="level-2 rectangle">Director A</p>
                             <ol class="level-3-wrapper">
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager A</p>
+                                    <p class="level-3 rectangle">Manager A</p>
                                     <ol class="level-4-wrapper">
                                         <li>
                                             <h4 class="level-4 rectangle">Person A</h4>
@@ -457,7 +443,7 @@ include ($home->inc['breadcrumbs']);
                                     </ol>
                                 </li>
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager B</p>
+                                    <p class="level-3 rectangle">Manager B</p>
                                     <ol class="level-4-wrapper">
                                         <li>
                                             <h4 class="level-4 rectangle">Person A</h4>
@@ -476,10 +462,10 @@ include ($home->inc['breadcrumbs']);
                             </ol>
                         </li>
                         <li>
-                            <p class="level-2 rectangle" style="font-weight:bold;">Director B</p>
+                            <p class="level-2 rectangle">Director B</p>
                             <ol class="level-3-wrapper">
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager
+                                    <p class="level-3 rectangle">Manager
                                         C</p>
                                     <ol class="level-4-wrapper">
                                         <li>
@@ -497,7 +483,7 @@ include ($home->inc['breadcrumbs']);
                                     </ol>
                                 </li>
                                 <li>
-                                    <p class="level-3 rectangle" style="margin:0px !important;">Manager
+                                    <p class="level-3 rectangle">Manager
                                         D</p>
                                     <ol class="level-4-wrapper">
                                         <li>
@@ -518,8 +504,6 @@ include ($home->inc['breadcrumbs']);
                         </li>
                     </ol>
                 </div>
-
-
             </section>
         </div><!-- /main_content -->
     </div> <!-- /main_content_wrap -->
